@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//Constants definitions
 #define LOWT -5
 #define HIGHT 55
 #define STEPT 5
