@@ -7,7 +7,7 @@ int main() {
   return 0;
 }
 
-//No return. Not standard and doesnt work on every compiler
+//No return. Not standard and doesnt work on every compiler.
 /*
 * void main() {
 * printf("Hello World");
