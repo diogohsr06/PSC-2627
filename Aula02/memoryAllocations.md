@@ -1,3 +1,4 @@
+```text
 # ALOCAÇÃO DE MEMÓRIA
 
 ## - Estática:
@@ -33,3 +34,4 @@
                    |  
           referência explicita  
               para student  
+```
