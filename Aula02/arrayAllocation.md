@@ -6,7 +6,7 @@
   
 ## Arrays as functions params/args
 ■ **int findmin(int nums[], unsigned n) {  
-  ...
+  ...  
 }**  
   => A function can receive an array and the number of elements as its parameters  
   
@@ -20,7 +20,7 @@
   
 ## Strings
 In C, Strings are arrays of chars (ended by a null character)  
-**Example**
+**Example**  
 ■ char str[] = "SUI" (or char str[] = {'S', 'U', 'I', '\0'})  
 ■ In memory => 'S' 'U' 'I' '\0'  
   
