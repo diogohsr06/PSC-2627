@@ -1,4 +1,3 @@
-```text
 # ALOCAÇÃO DE MEMÓRIA
 
 ## - Estática:
@@ -14,6 +13,7 @@
   ■ Objetos alocados explicitamente.  
   ■ struct student *ps = malloc(sizeof(struct student));  
   **Ex**  
+  ```text
   **Kotlin**  
   class Student(val num: Int)  
   var s = Student(1234)  
