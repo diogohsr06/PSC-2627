@@ -3,18 +3,21 @@
 ## - Estática:
   ■ Variáveis com tempo de vida global;  
   ■ (Existem desde o carregamento do programa ou módulo até ao seu fim).  
+  ```text
   **Ex: int x = 5**  
+```
 
 ## - Automática: 
+  ■ Variáveis locais e argumentos de função;  
+    - Alocação por ajuste do STACK_POINTER na entrada da função;  
+    - Reposição do STACK_POINTER á saída.  
   
-
-
 ## - Dinâmica: 
   ■ Objetos alocados explicitamente.  
   ■ struct student *ps = malloc(sizeof(struct student));  
   **Ex**  
   ```text
-  **Kotlin**  
+  Kotlin  
   class Student(val num: Int)  
   var s = Student(1234)  
           |___________|  
@@ -23,7 +26,7 @@
         uma instância de  
             Student  
   
-  **C:**  
+  C:  
   struct student {  
       ...  
   };  
