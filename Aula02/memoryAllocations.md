@@ -1,3 +1,4 @@
+<pre>  
 # ALOCAÇÃO DE MEMÓRIA
 
 ## - Estática:
@@ -12,7 +13,8 @@
 ## - Dinâmica: 
   ■ Objetos alocados explicitamente.  
   ■ struct student *ps = malloc(sizeof(struct student));  
-  **Ex (kotlin):**  
+  **Ex**  
+  **Kotlin**  
   class Student(val num: Int)  
   var s = Student(1234)  
           |___________|  
@@ -32,3 +34,4 @@
                    |  
           referência explicita  
               para student  
+</pre>  
