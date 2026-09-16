@@ -1,4 +1,4 @@
-```# ALOCAÇÃO DE MEMÓRIA
+# ALOCAÇÃO DE MEMÓRIA
 
 ## - Estática:
   ■ Variáveis com tempo de vida global;  
@@ -33,4 +33,3 @@
                    |  
           referência explicita  
               para student  
-```
