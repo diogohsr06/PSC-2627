@@ -5,15 +5,15 @@
 
 struct Student {
   unsigned int number;
-  char name [NAME_LEN];
+  char name[NAME_LEN];
 };
 
-struct Student s = { 1234, "Pedro" };
+struct Student s = {1234, "Pedro"};
 
 struct Student *ps = &s;
 
 void f(int i) {
-  struct Student ls = { 1234 + i, "Pedro" };
+  struct Student ls = {1234 + i, "Pedro"};
   printf("local student at: 0x%p\n", &ls);
   struct Student *ps = malloc(sizeof(struct Student));
   printf("dynamic student at: 0x%p\n", &ps);

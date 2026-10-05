@@ -28,7 +28,7 @@ size_t int_to_string(unsigned value, int base, char buffer[],
     prefix = 2;
     break;
   case 8:
-    prefix = 2;
+    prefix = 1;
     break;
   case 10:
     prefix = 0;
@@ -65,7 +65,6 @@ size_t int_to_string(unsigned value, int base, char buffer[],
     break;
   case 8:
     buffer[0] = '0';
-    buffer[1] = 'o';
     break;
   case 16:
     buffer[0] = '0';
@@ -81,23 +80,4 @@ size_t int_to_string(unsigned value, int base, char buffer[],
   buffer[prefix + i] = '\0';
 
   return (size_t)(prefix + i);
-}
-
-// Test
-int main() {
-  int size = 10;
-  char buffer[size];
-  size_t len = int_to_string(10, 2, buffer, sizeof(buffer));
-  printf("%s (len=%zu)\n", buffer, len);
-
-  len = int_to_string(255, 16, buffer, sizeof(buffer));
-  printf("%s (len=%zu)\n", buffer, len);
-
-  len = int_to_string(0, 8, buffer, sizeof(buffer));
-  printf("%s (len=%zu)\n", buffer, len);
-
-  len = int_to_string(12345, 10, buffer, sizeof(buffer));
-  printf("%s (len=%zu)\n", buffer, len);
-
-  return 0;
 }

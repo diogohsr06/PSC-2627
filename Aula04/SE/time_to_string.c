@@ -23,4 +23,4 @@ struct tm {
   int tm_isdst;
 };
 
-size_t time_to_string(struct tm *tm, char *buffer, size_t buffer_size) {}
+size_t time_to_string(struct tm *tm, char *buffer, size_t buffer_size) { TODO }
